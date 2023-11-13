@@ -16,17 +16,17 @@ public class Player : MonoBehaviour
 
     
     private Animator _animator;
-    private bool looksRight = true;
+    private bool _looksRight = true;
 
-    void Start()
+    private void Start()
     {
         _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
-    void Update()
+    public void FixedUpdate()
     {
-        if(dialogueUI.IsOpen || PauseMenu.isPaused) return;
+        if(dialogueUI.IsOpen || PauseMenu.IsPaused) return;
         
         if (Input.GetMouseButton(0))
         {
@@ -62,20 +62,13 @@ public class Player : MonoBehaviour
 
     private void Flip()
     {
-        looksRight = !looksRight;
-        if (looksRight)
-        {
-            _animator.Play("walk");
-        }
-        else
-        {
-            _animator.Play("lwalk");
-        }
+        _looksRight = !_looksRight;
+
     }
 
     private void SetTargetPosition()
     {
-        _targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        _targetPos = Camera.main!.ScreenToWorldPoint(Input.mousePosition);
         
         var position = transform.position;
         _targetPos.y = position.y;
@@ -83,10 +76,18 @@ public class Player : MonoBehaviour
         
         _isMoving = true;
         
+        if (_looksRight)
+        {
+            _animator.Play("walk");
+        }
+        else
+        {
+            _animator.Play("lwalk");
+        }
         
 
-        if (_targetPos.x > transform.position.x && !looksRight) Flip();
-        if (_targetPos.x < transform.position.x && looksRight) Flip();
+        if (_targetPos.x > transform.position.x && !_looksRight) Flip();
+        if (_targetPos.x < transform.position.x && _looksRight) Flip();
     }
 
     private void Move()

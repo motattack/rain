@@ -11,7 +11,7 @@ public class DialogueResponseEvents : MonoBehaviour
 
     public void OnValidate()
     {
-        if(PauseMenu.isPaused) return;
+        if(PauseMenu.IsPaused) return;
         if (dialogueObject == null) return;
         if (dialogueObject.Responses == null) return;
         if (events != null && events.Length == dialogueObject.Responses.Length) return;
