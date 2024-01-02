@@ -1373,6 +1373,7 @@ GameObject:
   - component: {fileID: 524803964}
   - component: {fileID: 524803967}
   - component: {fileID: 524803969}
+  - component: {fileID: 524803970}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -1505,6 +1506,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: "\u0414\u0432\u0435\u0440\u044C"
+--- !u!114 &524803970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524803963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ef6aea6a118f364298df86e904eb04d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextLevelPos: {x: -4, y: -3.935771, z: 0}
+  nextSceneName: Street
 --- !u!1 &564645877
 GameObject:
   m_ObjectHideFlags: 0
@@ -1573,8 +1588,8 @@ MonoBehaviour:
   m_LocalBounds:
     m_Center: {x: 0, y: -0.00000011920929, z: 0}
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
-  m_PointLightInnerAngle: 0
-  m_PointLightOuterAngle: 180
+  m_PointLightInnerAngle: 179.99986
+  m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
   m_PointLightOuterRadius: 14.15
   m_ShapeLightParametricSides: 5
@@ -1712,7 +1727,7 @@ Transform:
   m_GameObject: {fileID: 569833630}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.746568, y: -0.8427236, z: 0}
+  m_LocalPosition: {x: -4.216, y: 1.785, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2460,8 +2475,8 @@ MonoBehaviour:
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 1
+  m_PointLightInnerRadius: 0.486938
+  m_PointLightOuterRadius: 2.4460983
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -2476,9 +2491,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817198248}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.6419196, y: 0.102168724, z: -0.2528227}
-  m_LocalScale: {x: 0.62, y: 0.44, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9990549, w: -0.04346602}
+  m_LocalPosition: {x: -4.63, y: 2.89, z: -0.2528227}
+  m_LocalScale: {x: 0.55025, y: 0.47300002, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 288600412}
