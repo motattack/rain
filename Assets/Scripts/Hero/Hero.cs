@@ -10,7 +10,12 @@ public class Hero : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private float _jumpSpeed;
     [SerializeField] private LayerCheck _groundCheck;
+    [SerializeField] private DialogueUI _dialogueUI;
 
+    public DialogueUI DialogueUI => _dialogueUI;
+    
+    public IInteractable Interactable { get; set; }
+    
     private Rigidbody2D _rigidbody2D;
     private Vector2 _direction;
     private Animator _animator;
@@ -40,6 +45,8 @@ public class Hero : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(_dialogueUI.IsOpen) return;
+        
         _rigidbody2D.velocity = new Vector2(_direction.x * _speed, _rigidbody2D.velocity.y);
 
         var isJumping = _direction.y > 0;
@@ -58,6 +65,11 @@ public class Hero : MonoBehaviour
         _animator.SetBool("isWalking", _direction.x != 0);
 
         UpdateSpriteDirection();
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Interactable?.Interact(this);
+        }
     }
 
     private void UpdateSpriteDirection()
