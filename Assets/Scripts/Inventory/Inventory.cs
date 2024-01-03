@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour
@@ -9,6 +6,9 @@ public class Inventory : MonoBehaviour
 
     public Transform slotsParent;
     private InventorySlot[] _inventorySlots = new InventorySlot[20];
+    public InventorySlot[] InventorySlots => _inventorySlots;
+    
+    
 
     private bool _isOpened;
 
@@ -43,6 +43,11 @@ public class Inventory : MonoBehaviour
             else
                 Open();
         }
+    }
+
+    public void Delete(int id)
+    {
+        _inventorySlots[id].ClearSlot();
     }
 
     void Open()
