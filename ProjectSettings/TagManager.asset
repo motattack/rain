@@ -7,6 +7,7 @@ TagManager:
   - Inventory
   - Cat
   - Item
+  - MainMenuApp
   layers:
   - Default
   - TransparentFX

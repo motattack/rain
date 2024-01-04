@@ -4,21 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="762a528e-fe6e-4c77-93d0-96ee5569eb52" name="Changes" comment="dialogue">
+    <list default="true" id="762a528e-fe6e-4c77-93d0-96ee5569eb52" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.rain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.rain/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/Done.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/Done.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/No.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DialogueData/No.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/Test.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/Test.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/Yes.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DialogueData/Yes.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Gizmos/DialogueObject Icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Gizmos/DialogueObject Icon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Food/wiskas_icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Food/wiskas_icon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Tools/phone.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Tools/phone.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Navi Phone.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Navi Phone.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogueData.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/Meow.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/Meow.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/MeowEnd.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/MeowEnd.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/No.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/No.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/Wait.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/Wait.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/Yes.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogueData/Yes.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InventoryData.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InventoryData/Navi Phone.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InventoryData/Navi Phone.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InventoryData/Wiskas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InventoryData/Wiskas.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/room.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/room.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/street.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/street.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Phone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Phone.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +52,8 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/mot/rain/Assets/Gizmos/DialogueObject Icon.png.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueResponseEventsEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Door.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/mot/rain/Assets/Scripts/Hero/Hero.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventorySlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,6 +61,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/PickUpObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UseOfItems.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Phantoma/Monster/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Phone/PhoneRunApp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestMaster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.9.7/Runtime/Behaviours/CinemachineConfiner2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
@@ -164,7 +172,9 @@
       <workItem from="1704111368712" duration="50000" />
       <workItem from="1704111494993" duration="6803000" />
       <workItem from="1704171406208" duration="19508000" />
-      <workItem from="1704259735818" duration="13462000" />
+      <workItem from="1704259735818" duration="14654000" />
+      <workItem from="1704353733748" duration="3818000" />
+      <workItem from="1704367718385" duration="5107000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -342,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704278645930</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="phone">
+      <option name="closed" value="true" />
+      <created>1704288816046</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1704288816046</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +398,8 @@
     <MESSAGE value="simple inventory" />
     <MESSAGE value="add door" />
     <MESSAGE value="dialogue" />
-    <option name="LAST_COMMIT_MESSAGE" value="dialogue" />
+    <MESSAGE value="phone" />
+    <option name="LAST_COMMIT_MESSAGE" value="phone" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
