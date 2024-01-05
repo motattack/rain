@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="762a528e-fe6e-4c77-93d0-96ee5569eb52" name="Changes" comment="phone app">
+    <list default="true" id="762a528e-fe6e-4c77-93d0-96ee5569eb52" name="Changes" comment="apps">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.rain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.rain/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/Lain/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/Lain/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/Lain/walk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/Lain/walk.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hero/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hero/Hero.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/room.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/room.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Door.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +32,11 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/mot/rain/Assets/Scenes/room.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mot/rain/Assets/Scenes/room.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mot/rain/Assets/Scenes/room.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mot/rain/Assets/Scenes/room.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mot/rain/Assets/Scenes/room.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueResponseEventsEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Door.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/mot/rain/Assets/Scripts/Hero/Hero.cs" root0="SKIP_HIGHLIGHTING" />
@@ -49,6 +52,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Phone/PhoneRunApp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Phone/PhoneSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestMaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Saving/GameData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Saving/Storage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Saving/Surrogates/QuaternionSerialization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Saving/Surrogates/Vector3Serialization.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.9.7/Runtime/Behaviours/CinemachineConfiner2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
@@ -161,7 +168,7 @@
       <workItem from="1704259735818" duration="14654000" />
       <workItem from="1704353733748" duration="3818000" />
       <workItem from="1704367718385" duration="6588000" />
-      <workItem from="1704421856017" duration="5132000" />
+      <workItem from="1704421856017" duration="14852000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -355,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704377358582</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="apps">
+      <option name="closed" value="true" />
+      <created>1704443329227</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1704443329227</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +410,8 @@
     <MESSAGE value="dialogue" />
     <MESSAGE value="phone" />
     <MESSAGE value="phone app" />
-    <option name="LAST_COMMIT_MESSAGE" value="phone app" />
+    <MESSAGE value="apps" />
+    <option name="LAST_COMMIT_MESSAGE" value="apps" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
