@@ -12,6 +12,8 @@ public class Hero : MonoBehaviour
     [SerializeField] private LayerCheck _groundCheck;
     [SerializeField] private DialogueUI _dialogueUI;
 
+    public int balance = 2500;
+
     public DialogueUI DialogueUI => _dialogueUI;
     
     public IInteractable Interactable { get; set; }
@@ -63,7 +65,7 @@ public class Hero : MonoBehaviour
         }
         
         _animator.SetBool("isWalking", _direction.x != 0);
-
+        
         UpdateSpriteDirection();
 
         if (Input.GetKeyDown(KeyCode.E))
