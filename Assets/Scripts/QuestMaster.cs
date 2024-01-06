@@ -17,9 +17,9 @@ public class QuestMaster : MonoBehaviour
     {
         if (other.CompareTag("Player") && !_isCompleted)
         {
-            for (int i = 0; i < Inventory.instance.InventorySlots.Length; i++)
+            for (int i = 0; i < Inventory.instance._inventorySlots.Length; i++)
             {
-                if (objectToComplete == Inventory.instance.InventorySlots[i]._item)
+                if (objectToComplete == Inventory.instance._inventorySlots[i]._item)
                 {
                     _dialogueActivator.UpdateDialogueObject(completeMessage);
                     Inventory.instance.Delete(i);

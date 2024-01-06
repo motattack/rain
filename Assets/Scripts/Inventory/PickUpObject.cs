@@ -1,6 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PickUpObject : MonoBehaviour
@@ -20,5 +18,10 @@ public class PickUpObject : MonoBehaviour
             Inventory.instance.PutInEmptySlot(item, itemObj);
             gameObject.SetActive(false);
         }
+    }
+
+    public Sprite GetIcon()
+    {
+        return item.icon;
     }
 }

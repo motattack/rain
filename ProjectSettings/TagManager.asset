@@ -8,6 +8,7 @@ TagManager:
   - Cat
   - Item
   - MainMenuApp
+  - SpawnArea
   layers:
   - Default
   - TransparentFX

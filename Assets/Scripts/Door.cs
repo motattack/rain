@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -21,34 +20,19 @@ public class Door : MonoBehaviour
     {
         if (isButton)
         {
-            _gameData.position = nextLevelPos;
-            _storage.Save(_gameData);
-            SceneManager.sceneLoaded += OnSceneLoaded;
-            SceneManager.LoadScene(nextSceneName);
+            Load();
         }
     }
 
     private void OnMouseDown()
     {
-        _gameData.position = nextLevelPos;
-        _storage.Save(_gameData);
-        SceneManager.sceneLoaded += OnSceneLoaded;
-        SceneManager.LoadScene(nextSceneName);
+        Load();
     }
 
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    private void Load()
     {
-        if (scene.name == nextSceneName)
-        {
-            GameObject player = GameObject.FindGameObjectWithTag("Player");
-            
-            if (player != null)
-            {
-                player.transform.position = nextLevelPos;
-            }
-            
-            
-            SceneManager.sceneLoaded -= OnSceneLoaded;
-        }
+        _gameData.position = nextLevelPos;
+        _storage.Save(_gameData);
+        SceneManager.LoadScene(nextSceneName);
     }
 }

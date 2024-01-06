@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Hero : MonoBehaviour
@@ -11,6 +8,7 @@ public class Hero : MonoBehaviour
     [SerializeField] private float _jumpSpeed;
     [SerializeField] private LayerCheck _groundCheck;
     [SerializeField] private DialogueUI _dialogueUI;
+    [SerializeField] private GameObject _actionBar;
 
     public int balance = 2500;
 
@@ -23,16 +21,13 @@ public class Hero : MonoBehaviour
     private Animator _animator;
     private SpriteRenderer _sprite;
 
-    private void Start()
-    {
-        instance = this;
-    }
-
     private void Awake()
     {
+        instance = this;
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _sprite = GetComponent<SpriteRenderer>();
+        ToggleActionIndicator(false);
     }
 
     public void SetDirection(Vector2 direction)
@@ -83,5 +78,26 @@ public class Hero : MonoBehaviour
         {
             _sprite.flipX = true;
         }
+    }
+
+    public bool Purchase(int amount)
+    {
+        if (balance - amount >= 0)
+        {
+            balance -= amount;
+            return true;
+        }
+
+        return false;
+    }
+
+    public void ToggleActionIndicator(bool status)
+    {
+        _actionBar.SetActive(status);
+    }
+    
+    public bool IsAction()
+    {
+        return _actionBar.activeSelf;
     }
 }
