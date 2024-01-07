@@ -35,6 +35,7 @@ public class Vending : MonoBehaviour
         {
             Debug.Log("ENTER");
             Hero.instance.ToggleActionIndicator(true);
+            UpdateBalance();
         }
     }
 

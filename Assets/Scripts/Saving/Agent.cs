@@ -1,15 +1,22 @@
+using System;
 using UnityEngine;
 
 public class Agent : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
     private Storage _storage;
-    private GameData _gameData;
-
+    private PlayerData playerData;
+    
     private void Start()
     {
         _storage = new Storage();
+        playerData = new PlayerData();
         Load();
+    }
+
+    private void OnDestroy()
+    {
+        Save();
     }
 
     private void Update()
@@ -17,30 +24,27 @@ public class Agent : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftBracket))
         {
             Save();
+            _animator.Play("Saving");
         }
 
         if (Input.GetKeyDown(KeyCode.RightBracket))
         {
             Load();
+            _animator.Play("Load");
         }
     }
 
     public void Save()
     {
-        _gameData.position = transform.position;
-        _gameData.rotation = transform.rotation;
-        Debug.Log("Игра сохранена");
-        _animator.Play("Saving");
-        _storage.Save(_gameData);
+        playerData.itemIdList = InventoryItems.instance.Save();
+        playerData.balance = Hero.instance.balance;
+        _storage.Save(playerData);
     }
 
     public void Load()
     {
-        Debug.Log("Игра загружена");
-        _animator.Play("Load");
-        _gameData = (GameData)_storage.Load(new GameData());
-        
-        transform.position = _gameData.position;
-        transform.rotation = _gameData.rotation;
+        playerData = (PlayerData)_storage.Load(new PlayerData());
+        InventoryItems.instance.Load(playerData.itemIdList);
+        Hero.instance.SetBalance(playerData.balance);
     }
 }

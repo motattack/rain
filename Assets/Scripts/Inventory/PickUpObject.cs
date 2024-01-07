@@ -1,10 +1,9 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PickUpObject : MonoBehaviour
 {
-    [SerializeField] private Item item;
-    private GameObject itemObj;
+    public Item item;
+    public GameObject itemObj;
 
     private void Start()
     {

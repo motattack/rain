@@ -3,7 +3,7 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public static Inventory instance;
-
+    
     public Transform slotsParent;
     public InventorySlot[] _inventorySlots = new InventorySlot[20];
     
@@ -41,6 +41,15 @@ public class Inventory : MonoBehaviour
                 Close();
             else
                 Open();
+        }
+    }
+
+    public void ClearSlots()
+    {
+        for (int i = 0; i < _inventorySlots.Length; i++)
+        {
+            if(_inventorySlots[i]._item != null)
+                Delete(i);
         }
     }
 

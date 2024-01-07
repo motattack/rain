@@ -100,4 +100,9 @@ public class Hero : MonoBehaviour
     {
         return _actionBar.activeSelf;
     }
+
+    public void SetBalance(int _balance)
+    {
+        balance = _balance;
+    }
 }

@@ -1,6 +1,6 @@
 using System.IO;
+using Newtonsoft.Json;
 using UnityEngine;
-
 
 public class Storage
 {
@@ -12,7 +12,7 @@ public class Storage
         if (!Directory.Exists(directory))
             Directory.CreateDirectory(directory);
 
-        _filePath = directory + "/data.m";
+        _filePath = directory + "/rain_data.json";
     }
 
     public T Load<T>(T saveDataByDefault)
@@ -24,12 +24,12 @@ public class Storage
         }
 
         var json = File.ReadAllText(_filePath);
-        return JsonUtility.FromJson<T>(json);
+        return JsonConvert.DeserializeObject<T>(json);
     }
 
     public void Save<T>(T saveData)
     {
-        var json = JsonUtility.ToJson(saveData, prettyPrint: true);
+        var json = JsonConvert.SerializeObject(saveData, Formatting.Indented);
         File.WriteAllText(_filePath, json);
     }
 }
