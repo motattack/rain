@@ -9,8 +9,6 @@ public class InventoryItems : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        itemList = Resources.FindObjectsOfTypeAll<PickUpObject>();
-        Debug.Log(itemList.Length);
     }
 
     public void Load(List<int> itemIdList)

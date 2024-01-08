@@ -7,9 +7,12 @@ public class Item : ScriptableObject
 {
     [Header("Базовые")]
     public string Name = " ";
-    public string Description = "Описание";
+    [TextArea] public string Description = "Описание";
     public Sprite icon = null;
 
     public bool isHealing;
     public float healingPower;
+
+    public bool isLetter;
+    [TextArea] public string textLetter;
 }

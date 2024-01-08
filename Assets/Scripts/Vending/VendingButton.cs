@@ -26,7 +26,6 @@ public class VendingButton : MonoBehaviour
         }
 
         _price.text = _vendingItem.price.ToString();
-        Debug.Log(_vendingItem.price.ToString());
     }
 
     public void Buy()

@@ -1,20 +1,24 @@
+using System;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
     public static Inventory instance;
-    
+
     public Transform slotsParent;
-    public InventorySlot[] _inventorySlots = new InventorySlot[20];
-    
-    
+    public InventorySlot[] _inventorySlots;
 
     private bool _isOpened;
 
-    private void Start()
+    private void Awake()
     {
         instance = this;
 
+        _inventorySlots = new InventorySlot[20];
+    }
+
+    private void Start()
+    {
         for (int i = 0; i < _inventorySlots.Length; i++)
         {
             _inventorySlots[i] = slotsParent.GetChild(i).GetComponent<InventorySlot>();
@@ -48,7 +52,7 @@ public class Inventory : MonoBehaviour
     {
         for (int i = 0; i < _inventorySlots.Length; i++)
         {
-            if(_inventorySlots[i]._item != null)
+            if (_inventorySlots[i] != null && _inventorySlots[i]._item != null)
                 Delete(i);
         }
     }
@@ -68,5 +72,6 @@ public class Inventory : MonoBehaviour
     {
         gameObject.transform.localScale = Vector3.zero;
         _isOpened = false;
+        ItemInfo.instance.Close();
     }
 }

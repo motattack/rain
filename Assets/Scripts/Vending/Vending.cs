@@ -33,7 +33,6 @@ public class Vending : MonoBehaviour
         
         if (other.CompareTag("Player"))
         {
-            Debug.Log("ENTER");
             Hero.instance.ToggleActionIndicator(true);
             UpdateBalance();
         }
@@ -44,7 +43,6 @@ public class Vending : MonoBehaviour
         
         if (other.CompareTag("Player"))
         {
-            Debug.Log("EXIT");
             Hero.instance.ToggleActionIndicator(false);
         }
     }

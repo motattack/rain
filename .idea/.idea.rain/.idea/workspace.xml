@@ -7,20 +7,19 @@
     <list default="true" id="762a528e-fe6e-4c77-93d0-96ee5569eb52" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.rain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.rain/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Phone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Phone.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Wiskas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Wiskas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/end.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/end.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/market.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/market.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Door.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hero/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hero/Hero.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/room.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/room.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/street.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/street.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/PickUpObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/PickUpObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/Agent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/Agent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/GameData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/GameData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/Storage.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/Storage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/UseOfItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/UseOfItems.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestMaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/InventoryItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/InventoryItems.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/Models/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/Models/PlayerData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Vending/Vending.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Vending/Vending.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +44,9 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/mot/rain/Assets/Scenes/room.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mot/rain/Assets/Scenes/room.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueResponseEventsEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/mot/rain/Assets/Scripts/Door.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Door.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventorySlot.cs" root0="FORCE_HIGHLIGHTING" />
@@ -60,8 +60,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Phone/PhoneRunApp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Phone/PhoneSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestMaster.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Saving/GameData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Saving/Models/Stats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mot/rain/Assets/Scripts/Saving/Agent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Saving/Storage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vending/VendingItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.9.7/Runtime/Behaviours/CinemachineConfiner2D.cs" root0="SKIP_HIGHLIGHTING" />
@@ -182,7 +181,8 @@
       <workItem from="1704529969749" duration="13754000" />
       <workItem from="1704588814734" duration="4869000" />
       <workItem from="1704595289050" duration="2525000" />
-      <workItem from="1704634330731" duration="3583000" />
+      <workItem from="1704634330731" duration="3846000" />
+      <workItem from="1704697415970" duration="6534000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -400,7 +400,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704543991927</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fix saving system">
+      <option name="closed" value="true" />
+      <created>1704638167876</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1704638167876</updated>
+    </task>
+    <task id="LOCAL-00029" summary="upd">
+      <option name="closed" value="true" />
+      <created>1704638192184</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1704638192184</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +442,6 @@
     <MESSAGE value="init" />
     <MESSAGE value="remove inventory system" />
     <MESSAGE value="inventory" />
-    <MESSAGE value="upd" />
     <MESSAGE value="Phantoma input" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="kill" />
@@ -443,7 +458,9 @@
     <MESSAGE value="apps" />
     <MESSAGE value="saving independent of the scene" />
     <MESSAGE value="some fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fix" />
+    <MESSAGE value="fix saving system" />
+    <MESSAGE value="upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,8 +1,11 @@
+using TMPro;
 using UnityEngine;
 
 public class UseOfItems : MonoBehaviour
 {
     public static UseOfItems instance;
+    [SerializeField] private GameObject letterUI;
+    [SerializeField] private TMP_Text letterUIText;
 
     private void Start()
     {
@@ -15,5 +18,16 @@ public class UseOfItems : MonoBehaviour
         {
             Debug.Log("ХП повышен на " + item.healingPower);
         }
+
+        if (item.isLetter)
+        {
+            letterUI.SetActive(true);
+            letterUIText.text = item.textLetter;
+        }
+    }
+
+    public void CloseLetter()
+    {
+        letterUI.SetActive(false);
     }
 }
