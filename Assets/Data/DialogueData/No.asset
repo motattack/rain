@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: No
   m_EditorClassIdentifier: 
   dialogue:
-  - "\u0421\u0445\u043E\u0436\u0443 \u043F\u043E\u0437\u0436\u0435."
+  - "\u042F \u0441\u0445\u043E\u0436\u0443 \u043F\u043E\u0437\u0436\u0435."
   responses: []

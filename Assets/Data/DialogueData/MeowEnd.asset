@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: MeowEnd
   m_EditorClassIdentifier: 
   dialogue:
-  - "\u0410 \u0432\u043E\u0442 \u0438 \u0442\u0435\u043B\u0435\u0444\u043E\u043D."
+  - "\u0420\u0435\u0439\u043D: \u041F\u0438\u0441\u044C\u043C\u043E?"
   responses: []
