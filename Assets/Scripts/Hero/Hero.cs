@@ -20,6 +20,21 @@ public class Hero : MonoBehaviour
     private Vector2 _direction;
     private Animator _animator;
     private SpriteRenderer _sprite;
+    
+    private bool isAccelerating = false;
+
+    private void Update()
+    {
+        // Check if the Shift key is pressed
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            isAccelerating = true;
+        }
+        else
+        {
+            isAccelerating = false;
+        }
+    }
 
     private void Awake()
     {
@@ -44,7 +59,8 @@ public class Hero : MonoBehaviour
     {
         if(_dialogueUI.IsOpen) return;
         
-        _rigidbody2D.velocity = new Vector2(_direction.x * _speed, _rigidbody2D.velocity.y);
+        float currentSpeed = isAccelerating ? _speed * 2f : _speed;
+        _rigidbody2D.velocity = new Vector2(_direction.x * currentSpeed, _rigidbody2D.velocity.y);
 
         var isJumping = _direction.y > 0;
         if (isJumping)

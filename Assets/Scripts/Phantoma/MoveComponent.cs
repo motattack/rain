@@ -6,6 +6,7 @@ public class MoveComponent : MonoBehaviour
     [SerializeField] private float Acceleration;
     [SerializeField] private float RotationPower;
     [SerializeField] private float SlipPower;
+    private bool isBoost = false;
 
     private Rigidbody2D RB;
 
@@ -26,9 +27,19 @@ public class MoveComponent : MonoBehaviour
 
     void PlayerController()
     {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            isBoost = true;
+        }
+        else
+        {
+            isBoost = false;
+        }
+        
         float Vertical = Input.GetAxis("Vertical");
         float Multiply = Vertical >= 0 ? 1 : 0.5f;
-        RB.AddForce(transform.up * (Acceleration * Input.GetAxisRaw("Vertical") * Multiply));
+        float currentSpeed = isBoost ? Acceleration * 2f : Acceleration;
+        RB.AddForce(transform.up * (currentSpeed * Input.GetAxisRaw("Vertical") * Multiply));
         Multiply = Vertical >= 0 ? 1 : -1;
         RB.AddTorque(-Input.GetAxisRaw("Horizontal") * Multiply * (RB.velocity.magnitude / 2) * RotationPower);
         Slip(GetSlipVector(), SlipPower);

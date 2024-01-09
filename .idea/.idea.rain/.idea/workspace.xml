@@ -4,22 +4,143 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="762a528e-fe6e-4c77-93d0-96ee5569eb52" name="Changes" comment="">
+    <list default="true" id="762a528e-fe6e-4c77-93d0-96ee5569eb52" name="Changes" comment="end">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Tree1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Tree1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Tree2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Tree2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Tree3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Tree3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Vegetation/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Vegetation/Materials/spr_tree1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Vegetation/Materials/spr_tree1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Vegetation/Materials/spr_tree2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Vegetation/Materials/spr_tree2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Resume.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Resume.controller.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.rain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.rain/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Phone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Phone.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/end.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/end.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Phantoma.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Phantoma/Tree.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Phantoma/Tree.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Phantoma/Tree2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Phantoma/Tree2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Phantoma/Tree3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Phantoma/Tree3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/Slime.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/Slime.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/Smile.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/Smile.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/spr_Blue_slime_attack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/spr_Blue_slime_attack.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/spr_Blue_slime_death.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/spr_Blue_slime_death.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/spr_Blue_slime_hurt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/spr_Blue_slime_hurt.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/spr_Blue_slime_hurt_without_filter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/spr_Blue_slime_hurt_without_filter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/spr_Blue_slime_idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/spr_Blue_slime_idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/spr_Blue_slime_walk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Monster/spr_Blue_slime_walk.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/Player.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/Player.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/Running.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/Running.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/attack/7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/effect sword.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/effect sword/Entry.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/effect sword/Entry.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/effect sword/Slash Effect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/effect sword/Slash Effect.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/effect sword/Slash.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/effect sword/Slash.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/hit.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/hit/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/hit/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/hit/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/hit/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/hit/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/hit/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/hit/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/hit/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/idle/9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/sword.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/sword/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/sword/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/sword/Entry.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/sword/Entry.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/sword/SwingDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/sword/SwingDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/sword/SwingUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/sword/SwingUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/sword/Sword.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/sword/Sword.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/walk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/walk/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/walk/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/walk/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/walk/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/walk/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/walk/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/walk/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/walk/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/walk/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/walk/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/walk/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Locations/Phantoma/Player/walk/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Phantoma/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Phantoma/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/market.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/market.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/room.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/room.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/street.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/street.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/UseOfItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/UseOfItems.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestMaster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/InventoryItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/InventoryItems.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/Models/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/Models/PlayerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Vending/Vending.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Vending/Vending.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hero/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hero/Hero.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Phantoma/MoveComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Phantoma/MoveComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +165,6 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/mot/rain/Assets/Scenes/room.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/mot/rain/Assets/Scenes/room.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueResponseEventsEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Door.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,13 +173,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/ItemInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/PickUpObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UseOfItems.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Phantoma/Monster/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Phone/PhoneAppBank.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Phone/PhoneCall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Phone/PhoneRunApp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Phone/PhoneSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestMaster.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/mot/rain/Assets/Scripts/Saving/Agent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Saving/Storage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vending/VendingItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.9.7/Runtime/Behaviours/CinemachineConfiner2D.cs" root0="SKIP_HIGHLIGHTING" />
@@ -182,7 +301,8 @@
       <workItem from="1704588814734" duration="4869000" />
       <workItem from="1704595289050" duration="2525000" />
       <workItem from="1704634330731" duration="3846000" />
-      <workItem from="1704697415970" duration="6534000" />
+      <workItem from="1704697415970" duration="6738000" />
+      <workItem from="1704767594783" duration="3572000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -416,7 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704638192184</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="1 quest">
+      <option name="closed" value="true" />
+      <created>1704729951925</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1704729951925</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +588,9 @@
     <MESSAGE value="some fix" />
     <MESSAGE value="fix saving system" />
     <MESSAGE value="upd" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd" />
+    <MESSAGE value="1 quest" />
+    <MESSAGE value="end" />
+    <option name="LAST_COMMIT_MESSAGE" value="end" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
